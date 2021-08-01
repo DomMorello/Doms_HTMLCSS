@@ -4,4 +4,22 @@
     height: 600px;
     border: black;
     border-style: solid;
+    border-radius: 15px;
+
+    #upper-part {
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+			height: 70%;
+      background: linear-gradient(140deg, rgba(204, 133, 151), rgba(255, 149, 98)) ;
+
+			#avatar-container {
+				text-align: center;
+				
+				img {
+					width: 150px;
+					height: 150px;
+					border-radius: 50%;
+				}
+			}
+    }
 }

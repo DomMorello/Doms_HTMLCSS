@@ -4,6 +4,21 @@
   height: 600px;
   border: black;
   border-style: solid;
+  border-radius: 15px;
+}
+#modal #upper-part {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 70%;
+  background: linear-gradient(140deg, #cc8597, #ff9562);
+}
+#modal #upper-part #avatar-container {
+  text-align: center;
+}
+#modal #upper-part #avatar-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=design.css.map */
