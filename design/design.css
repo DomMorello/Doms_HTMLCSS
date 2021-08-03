@@ -1,24 +1,63 @@
+body {
+  background-color: #846fb6;
+}
+
 #modal {
   margin-left: 200px;
-  width: 600px;
+  width: 500px;
   height: 600px;
-  border: black;
-  border-style: solid;
-  border-radius: 5%;
 }
 #modal #upper-part {
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
-  height: 70%;
-  background: linear-gradient(140deg, #cc8597, #ff9562);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 65%;
+  background: linear-gradient(145deg, #cc8597, #ff9562);
 }
 #modal #upper-part #avatar-container {
   text-align: center;
 }
 #modal #upper-part #avatar-container img {
+  border-style: solid;
+  border-width: 7px;
+  border-color: white;
+  opacity: 0.8;
+  margin-top: 10%;
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+#modal #upper-part #user-info {
+  text-align: center;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+#modal #upper-part #user-info #user-id {
+  font-size: 17pt;
+  font-weight: bold;
+  color: white;
+}
+#modal #upper-part #user-info #user-stat {
+  margin-top: 10px;
+  color: white;
+  opacity: 0.6;
+}
+#modal #upper-part #user-info .delimiter {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#modal #upper-part #user-info #user-title {
+  font-family: sans-serif;
+  font-style: italic;
+  color: white;
+  opacity: 0.6;
+  font-size: 15pt;
+  margin-top: 10px;
+}
+#modal #lower-part {
+  background-color: white;
+  height: 35%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 /*# sourceMappingURL=design.css.map */

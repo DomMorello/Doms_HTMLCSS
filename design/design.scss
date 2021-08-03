@@ -1,25 +1,73 @@
+body {
+  background-color: rgb(132, 111, 182);
+}
 #modal {
-    margin-left: 200px;
-    width: 600px;
-    height: 600px;
-    border: black;
-    border-style: solid;
-    border-radius: 5%;
+  margin-left: 200px;
+  width: 500px;
+  height: 600px;
 
-    #upper-part {
-			border-top-left-radius: 5%;
-			border-top-right-radius: 5%;
-			height: 70%;
-      background: linear-gradient(140deg, rgba(204, 133, 151), rgba(255, 149, 98)) ;
+  #upper-part {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 65%;
+    background: linear-gradient(
+      145deg,
+      rgba(204, 133, 151),
+      rgba(255, 149, 98)
+    );
 
-			#avatar-container {
-				text-align: center;
-				
-				img {
-					width: 150px;
-					height: 150px;
-					border-radius: 50%;
-				}
-			}
+    #avatar-container {
+      text-align: center;
+
+      img {
+        border-style: solid;
+        border-width: 7px;
+        border-color: white;
+        opacity: 0.8;
+        margin-top: 10%;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
     }
+
+    #user-info {
+      text-align: center;
+      margin-top: 10px;
+      font-family: sans-serif;
+
+      #user-id {
+        font-size: 17pt;
+        font-weight: bold;
+        color: white;
+      }
+
+      #user-stat {
+        margin-top: 10px;
+        color: white;
+        opacity: 0.6;
+      }
+
+      .delimiter {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      #user-title {
+        font-family: sans-serif;
+        font-style: italic;
+        color: white;
+        opacity: 0.6;
+        font-size: 15pt;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  #lower-part {
+    background-color: white;
+    height: 35%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
 }
