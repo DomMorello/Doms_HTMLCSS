@@ -40,7 +40,6 @@ body {
         margin-bottom: 20px;
         color: rgba(255, 149, 98);
         font-weight: bold;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         cursor: pointer;
         transform: scale(1);
         transition: 0.1s all ease-in-out;
@@ -73,11 +72,11 @@ body {
     #avatar-container > :hover {
       transform: scale(1.1);
       transition: 0.2s all ease-in-out;
+      opacity: 1;
     }
 
     #user-info {
       text-align: center;
-      font-family: sans-serif;
 
       #user-id {
         font-size: 17pt;
@@ -127,7 +126,7 @@ body {
 
     span {
       padding: 0;
-      opacity: 0.5;
+      opacity: 0.4;
       display: block;
       margin-top: 10px;
       font-size: 10pt;
